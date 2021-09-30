@@ -12,3 +12,65 @@ body{
     overflow: hidden;
     margin: 0;
 }
+
+.container{
+    background-color: #222831;
+    color:#fff;
+    width: 800px;
+    margin: 0 auto;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.header{
+    border-bottom: solid 2px #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.search-container{
+    width: 30%;
+}
+
+.search-container .search{
+    width:100%;
+    background-color: #777;
+    border-radius: 5px;
+    color: #fff;
+    border: solid 1px #393E46;
+}
+
+.buttons{
+    width: 70%;
+}
+
+.buttons .material-icons{
+    margin: 0 5px;
+    font-size: 20px;
+    display: inline-block;
+    border-radius: 5px;
+    border: 0;
+    background: transparent;
+}
+
+.footer{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.footer .entries-section{
+    width: 70%;
+}
+
+.footer pagination-section{
+    margin-left: auto;
+    margin-right: 0;
+    width: 30%;
+}
+
+.footer .pagination-section a{
+    margin: 2px;
+}
