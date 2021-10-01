@@ -24,7 +24,7 @@ body{
 }
 
 .header{
-    border-bottom: solid 2px #fff;
+    border-bottom: solid 1px #fff;
     padding: 10px;
     display: flex;
     align-items: center;
@@ -46,13 +46,19 @@ body{
     width: 70%;
 }
 
-.buttons .material-icons{
+button{
     margin: 0 5px;
     font-size: 20px;
     display: inline-block;
     border-radius: 5px;
     border: 0;
     background: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #1F6F8B;
 }
 
 .footer{
@@ -62,15 +68,52 @@ body{
 }
 
 .footer .entries-section{
-    width: 70%;
+    width: 60%;
 }
 
 .footer pagination-section{
     margin-left: auto;
     margin-right: 0;
-    width: 30%;
+    width: 40%;
 }
 
 .footer .pagination-section a{
-    margin: 2px;
+    margin: 0 1px;
+    font-size: 12px;
+    display: inline-block;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 3px;
+
 }
+
+.footer .pagination-section a:hover{
+    background: #1F6F8B;
+}
+
+.footer .pagination-section .active{
+    background: #1F6F8B;
+
+}
+
+.table-list{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table-list th,
+.table-list td{
+    padding: 20px 25px;
+}
+
+
+.table-list tr:nth-child(even){
+    background-color: rgb(158, 157, 137,0.2);
+}
+
+.table-list tr:hover{
+    background: #1F6F8B;
+}
+
